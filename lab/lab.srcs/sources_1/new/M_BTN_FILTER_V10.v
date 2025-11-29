@@ -1,13 +1,5 @@
 `timescale 1ns / 1ps
-//////////////////////////////////////////////////////////////////////////////////
-// Company:        Argon
-// Engineer:       FPGA-Mechanic
-//
-// Create Date:    15:23:33 12/17/2013
-// Design Name:    Any Device With Button
-// Module Name:    M_BTN_FILTER_V10
-// Target Devices: FPGA or CPLD
-//////////////////////////////////////////////////////////////////////////////////
+
 module M_BTN_FILTER_V10(
     input      CLK,                     // System Clock
     input      CE,                      // CE (1-2kHz - optimal)
